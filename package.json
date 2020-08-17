@@ -17,6 +17,7 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "@types/is-odd": "^3.0.0",
+    "@types/sprintf-js": "^1.1.2",
     "clean-webpack-plugin": "3.0.0",
     "compression-webpack-plugin": "3.1.0",
     "file-loader": "4.3.0",
@@ -32,6 +33,7 @@
   },
   "dependencies": {
     "excalibur": "0.24.3",
-    "is-odd": "^3.0.1"
+    "is-odd": "^3.0.1",
+    "sprintf-js": "^1.1.2"
   }
 }

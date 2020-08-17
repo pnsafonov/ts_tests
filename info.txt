@@ -9,3 +9,7 @@ npm i --save-dev --dry-run @types/jquery
 npm i is-odd
 npm i --save-dev @types/is-odd
 npm i --save-dev --dry-run @types/is-odd
+
+npm install sprintf-js
+npm install --save-dev @types/sprintf-js
+npm install --save-dev --dry-run @types/sprintf-js
