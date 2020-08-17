@@ -1,6 +1,7 @@
 
 import { HelloSome1} from "some/some1/HelloSome1";
 import { HelloSome2 } from "some/some2/HelloSome2";
+import { run_tests } from "tests/tests";
 
 class HelloMain {
 
@@ -22,6 +23,8 @@ function main() {
 
     const hs2 = new HelloSome2();
     hs2.say();
+
+    run_tests();
 
     console.log("main: done");
 }

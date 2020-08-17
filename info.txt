@@ -1,2 +1,11 @@
 npm i
 npm run dev
+
+
+npm i jquery
+npm i --save-dev @types/jquery
+npm i --save-dev --dry-run @types/jquery
+
+npm i is-odd
+npm i --save-dev @types/is-odd
+npm i --save-dev --dry-run @types/is-odd
