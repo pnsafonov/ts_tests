@@ -1,6 +1,6 @@
 
-import { HelloSome1 } from "./some/some1/HelloSome1";
-import { HelloSome2 } from "./some/some2/HelloSome2";
+import { HelloSome1} from "some/some1/HelloSome1";
+import { HelloSome2 } from "some/some2/HelloSome2";
 
 class HelloMain {
 
@@ -26,4 +26,4 @@ function main() {
     console.log("main: done");
 }
 
-main()
+main();

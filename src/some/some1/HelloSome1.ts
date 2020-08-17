@@ -1,5 +1,5 @@
 
-import { defLogger } from "../../utils/log";
+import { defLogger } from "utils/log";
 
 class HelloSome1 {
 

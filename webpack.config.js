@@ -40,6 +40,12 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
           ]
         },
         resolve: {
+            // ts absolute import
+            modules: [
+                "node_modules",
+                path.resolve(__dirname, "src")
+            ],
+
           extensions: ['.tsx', '.ts', '.js']
         },
         output: {

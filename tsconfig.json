@@ -3,6 +3,17 @@
     "target": "es5",
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "./dist/"
+    "outDir": "./dist/",
+
+    // ts absolute import
+    "baseUrl": "./src"
+//    "baseUrl": ".",
+//    "paths": {
+//      "*": [
+//        "*",
+//        "src/*"
+//      ]
+//    }
+
   }
 }
