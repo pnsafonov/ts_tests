@@ -1,9 +1,11 @@
 
+import { defLogger } from "../../utils/log";
+
 class HelloSome2 {
 
     say(): string {
         const msg = "HelloSome2: Hello!"
-        console.log(msg);
+        defLogger.log(msg);
         return msg;
     }
 
